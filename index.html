@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+   <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+   
+        <h1>CALCULATOR</h1>
+        <div class="container">
+            <p>ASUS</p>
+           <form action="submit">
+            
+                <input type="text" class="screen" id="screen">
+                <div class="buttonContainer">
+                <br>
+                
+                    <input class="buttonNumber" type="button" value="7" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="8" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="9" onClick="buttonClick(value)">
+                    <input class="buttonOperator" type="button" value="/" onClick="buttonClick(value)">
+                    <br>
+                    <input class="buttonNumber" type="button" value="4" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="5" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="6" onClick="buttonClick(value)">
+                    <input class="buttonOperator" type="button" value="*" onClick="buttonClick(value)">
+                    <br>
+                    <input class="buttonNumber" type="button" value="1" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="2" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="3" onClick="buttonClick(value)">
+                    <input class="buttonOperator" type="button" value="+" onClick="buttonClick(value)">
+                    <br>
+                    <input class="buttonClear" type="button" value="C" onClick="clearScreen()">
+                    <input class="buttonNumber" type="button" value="0" onClick="buttonClick(value)">
+                    <input class="buttonNumber" type="button" value="=" onClick="result(value)">
+                    <input class="buttonOperator" type="button" value="-" onClick="buttonClick(value)">
+           <br>
+            <input class="buttonClear" type="button" value="back(notset)" onClick="backspace()" id="back">
+            <input class="buttonNumber" type="button" value="." onClick="buttonClick(value)">
+            
+                     
+        </div>
+            </div>
+           </form>
+
+        </div>
+    <script src="./index.js"></script>
+</body>
+</html>
